@@ -36,7 +36,7 @@ find /var/www -type f -exec sudo chmod 0664 {} \;
 #-----------
 
 # Export MySQL and create a new user in database
-export MYSQL_HOST=wordpressinstance.cuad9n8pmr8b.eu-west-1.rds.amazonaws.com
-mysql --user=admin --password=Kallekalle1 -h wordpressinstance.cuad9n8pmr8b.eu-west-1.rds.amazonaws.com wordpress < databaseuser.sql
+export MYSQL_HOST=<YOUR ENDPOINT HERE>
+mysql --user=USERNAMEHERE --password=PASSWORDHERE -h ENPOINTHERE < databaseuser.sql
 
 

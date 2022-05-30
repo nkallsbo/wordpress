@@ -1,3 +1,6 @@
+
+#!/bin/bash
+
 # Mount to EFS
 mount -t efs -o tls fs-09a5941278d57ae6f:/ /var/www/html/
 # Download Wordpress
